@@ -28,7 +28,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-//app.use(app.router);
+//app.use(app.router); esto se comento por q esta deprecate a partir de la verison 4 de express
 
 
 // Make our db accessible to our router

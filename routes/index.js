@@ -1,6 +1,6 @@
 /* GET home page. */
 exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Mi primera app con Node.js y Express.js' });
 };
 
 /* GET helloworld page. */
